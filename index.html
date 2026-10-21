@@ -132,8 +132,8 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,4vw,2.8rem);mar
 .drum-stage p{margin-top:.5rem}
 .controls{display:flex;justify-content:center;align-items:center;gap:1.6rem;margin-top:2rem}
 .controls button{background:none;color:var(--text);cursor:pointer;transition:border-color .25s,color .25s}
-#prev,#next,#dprev,#dnext{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;font-size:1.5rem;line-height:1}
-#prev:hover,#next:hover,#dprev:hover,#dnext:hover{border-color:var(--gold);color:var(--gold)}
+#prev,#next,#dprev,#dnext,#bprev,#bnext{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;font-size:1.5rem;line-height:1}
+#prev:hover,#next:hover,#dprev:hover,#dnext:hover,#bprev:hover,#bnext:hover{border-color:var(--gold);color:var(--gold)}
 .dots{display:flex;gap:.7rem}
 .dots button{width:9px;height:9px;padding:0;border:1px solid var(--gold);border-radius:50%}
 .dots button.on{background:var(--gold)}
@@ -183,7 +183,8 @@ footer{text-align:center;padding:2.5rem;color:var(--muted);font-size:.85rem;bord
 @media (max-width:640px){
   .stage{height:390px}
   .drum-stage{--h:270px;height:520px}
-  #bidangStage{--h:340px;height:660px}
+  #bidangStage{--h:355px;height:690px}
+  #bidangStage p{font-size:.92rem;line-height:1.6}
   .nav{padding:.9rem 4vw;gap:.6rem}
   .brand{font-size:1.35rem}
   .nav nav{gap:.65rem;font-size:.72rem;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
